@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_extrabold"
+            android:letterSpacing="0.1"
+            android:text="Hello again!"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Welcome come back you've"
+            android:textColor="#756e7e"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="10dp"
+            android:text="been missed!"
+            android:textColor="#756e7e"
+            android:textSize="20sp" />
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:neumorph_shapeType="basin">
+
+            <EditText
+                android:id="@+id/edUserNameLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints=""
+                android:hint="Username"
+                android:gravity="center_vertical"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="text"
+                android:padding="14dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"/>
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:neumorph_shapeType="basin">
+
+            <EditText
+                android:id="@+id/edPassLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints=""
+                android:hint="Password"
+                android:gravity="center_vertical"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="textPassword"
+                android:padding="14dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                tools:ignore="RtlSymmetry" />
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/btnSignIn"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Sign In"
+            app:neumorph_backgroundColor="#fd6b68"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_extrabold"
+            android:letterSpacing="0.1"
+            android:textColor="@color/white"
+            android:textSize="20dp"></soup.neumorphism.NeumorphButton>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

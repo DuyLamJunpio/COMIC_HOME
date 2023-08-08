@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "230009539722",
+    "project_id": "asmnetworking-f1694",
+    "storage_bucket": "asmnetworking-f1694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230009539722:android:d18932624eaaa9671bb173",
+        "android_client_info": {
+          "package_name": "com.example.asm_android_networking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230009539722-obefmddll3gj9undhivr0biil14dnl9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asm_android_networking",
+            "certificate_hash": "49ed73a9c97ad9a353e9ace5fc3c52a24fc6bf50"
+          }
+        },
+        {
+          "client_id": "230009539722-m110u6k6ce50be6u6d8ccmkdg9nr24lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBScCNXtq4f4zhhO9KBfC9Wumda4eePq64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230009539722-m110u6k6ce50be6u6d8ccmkdg9nr24lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
